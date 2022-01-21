@@ -77,8 +77,8 @@ def telethon_session():
 
     # logging in
     try:
-        with TelegramClient(StringSession(), API_ID, API_HASH) as ultroid:
-            print("Generating a string session for •ULTROID•")
+        with TelegramClient(StringSession(), API_ID, API_HASH) as khteam:
+            print("Generating a string session for •Khatarteam•")
             try:
                 ult = ultroid.send_message(
                     "me",
@@ -106,12 +106,12 @@ def telethon_session():
     except Exception as er:
         print("Unexpected Error Occurred while Creating Session")
         print(er)
-        print("If you think It as a Bug, Report to @UltroidSupport.\n\n")
+        print("If you think It as a Bug, Report to @IlIlI_x.\n\n")
 
 
 def main():
     clear_screen()
-    print(ULTROID)
+    print(KHATARTEAM)
     telethon_session()
     x = input("Run again? (y/n)")
     if x.lower() in ["y", "yes"]:
