@@ -9,7 +9,7 @@
 import os
 from time import sleep
 
-KHATARTEAM = r"""
+KH = r"""
   _    _ _ _             _     _
  | |  | | | |           (_)   | |
  | |  | | | |_ _ __ ___  _  __| |
@@ -111,7 +111,7 @@ def telethon_session():
 
 def main():
     clear_screen()
-    print(KHATARTEAM)
+    print(KH)
     telethon_session()
     x = input("Run again? (y/n)")
     if x.lower() in ["y", "yes"]:
