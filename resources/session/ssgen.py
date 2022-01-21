@@ -79,7 +79,7 @@ def telethon_session():
         with TelegramClient(StringSession(), API_ID, API_HASH) as ultroid:
             print("Generating a string session for •Khatarteam•")
             try:
-                kh = khatarteam.send_message(
+                ult = ultroid.send_message(
                     "me",
                     f"**Khatar Team** `SESSION`:\n\n`{ultroid.session.save()}`\n\n**Do not share this anywhere!**",
                 )
