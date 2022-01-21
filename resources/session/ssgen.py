@@ -60,7 +60,7 @@ def telethon_session():
 
         text = "\bDone. Installed and imported Telethon."
     clear_screen()
-    print(ULTROID)
+    print(KHATARTEAM)
     print(text)
 
     # the imports
@@ -80,9 +80,9 @@ def telethon_session():
         with TelegramClient(StringSession(), API_ID, API_HASH) as khteam:
             print("Generating a string session for •Khatarteam•")
             try:
-                ult = ultroid.send_message(
+                kh = khatarteam.send_message(
                     "me",
-                    f"**ULTROID** `SESSION`:\n\n`{ultroid.session.save()}`\n\n**Do not share this anywhere!**",
+                    f"**Khatar Team** `SESSION`:\n\n`{ultroid.session.save()}`\n\n**Do not share this anywhere!**",
                 )
                 print(
                     "Your SESSION has been generated. Check your Telegram saved messages!"
