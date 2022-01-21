@@ -38,7 +38,7 @@ def clear_screen():
 
 def get_api_id_and_hash():
     print(
-        "Get your API ID and API HASH from my.telegram.org or @ScrapperRoBot to proceed.\n\n",
+        "Get your API ID and API HASH from my.telegram.org.\n\n",
     )
     try:
         API_ID = int(input("Please enter your API ID: "))
@@ -60,7 +60,6 @@ def telethon_session():
 
         text = "\bDone. Installed and imported Telethon."
     clear_screen()
-    print(KH)
     print(text)
 
     # the imports
@@ -77,7 +76,7 @@ def telethon_session():
 
     # logging in
     try:
-        with TelegramClient(StringSession(), API_ID, API_HASH) as khteam:
+        with TelegramClient(StringSession(), API_ID, API_HASH) as ultroid:
             print("Generating a string session for •Khatarteam•")
             try:
                 kh = khatarteam.send_message(
@@ -111,7 +110,6 @@ def telethon_session():
 
 def main():
     clear_screen()
-    print(KH)
     telethon_session()
     x = input("Run again? (y/n)")
     if x.lower() in ["y", "yes"]:
