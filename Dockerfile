@@ -3,7 +3,7 @@
 # This file is a part of < https://github.com/Khatarteam/khteam >
 # PLease read the GNU Affero General Public License in <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 
-FROM Khatarteam/khteam:main
+FROM theteamultroid/khteam:main
 
 # set timezone
 ENV TZ=Africa/Cairo
