@@ -60,7 +60,7 @@ def telethon_session():
 
         text = "\bDone. Installed and imported Telethon."
     clear_screen()
-    print(KHATARTEAM)
+    print(KH)
     print(text)
 
     # the imports
