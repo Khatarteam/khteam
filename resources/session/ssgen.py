@@ -9,7 +9,7 @@
 import os
 from time import sleep
 
-ULTROID = r"""
+KHATARTEAM = r"""
   _    _ _ _             _     _
  | |  | | | |           (_)   | |
  | |  | | | |_ _ __ ___  _  __| |
