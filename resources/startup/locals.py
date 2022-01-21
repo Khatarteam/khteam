@@ -26,12 +26,12 @@ def start():
     check_for_py()
 
     print(f"{a}\n\n")
-    print("Welcome to Ultroid, lets start setting up!\n\n")
+    print("Welcome, lets start setting up!\n\n")
     print("Cloning the repository...\n\n")
     os.system("rm -rf Ultroid")
-    os.system("git clone https://github.com/TeamUltroid/Ultroid")
+    os.system("git clone https://github.com/Khatarteam/khteam")
     print("\n\nDone")
-    os.chdir("Ultroid")
+    os.chdir("khteam")
     clear_screen()
     print(a)
     print("\n\nLet's start!\n")
@@ -84,7 +84,7 @@ def start():
         print("Skipped!")
     clear_screen()
     print(a)
-    print("\nStarting Ultroid...")
+    print("\nStarting...")
     os.system("python3 -m pyUltroid")
 
 
@@ -123,7 +123,7 @@ def check_for_py():
 
 def gen_session():
     print("\nProcessing...")
-    # https://github.com/TeamUltroid/Ultroid/main/resources/startup/locals.py#L35
+    # https://github.com/Khatarteam/khteam/main/resources/startup/locals.py#L35
     os.system("python3 resources/session/ssgen.py")
 
 
